@@ -11,11 +11,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className=""
-      >
-        {children}
-      </body>
+      {/* class="light-mode" 亮色模式*/}
+      <body className="light-mode">{children}</body>
     </html>
   )
 }
