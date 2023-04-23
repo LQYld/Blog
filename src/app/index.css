@@ -78,7 +78,8 @@
 
 .search-bar {
   display: flex;
-  padding-left: 16px;
+
+  /* padding-left: 16px; */
   width: 100%;
   max-width: 400px;
   height: 40px;
