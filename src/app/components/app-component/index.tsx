@@ -1,7 +1,9 @@
 import { Installed_config } from '../../common/config'
+import { pushWindow } from '../../utils/index'
 import FEecosphere from '../../../../public/fe-ecosphere.png'
 import './index.css'
 export default function AppComponents() {
+  const fe_ecosphereUrl = 'https://www.fe-ecosphere.com/'
   return (
     <>
       <div className="content-wrapper-header">
@@ -14,7 +16,12 @@ export default function AppComponents() {
             Full name: front-end ecosystem .FE-ecosphere An ecosystem dedicated
             to front-end developers.
           </div>
-          <button className="content-button">Go fe-ecosphere</button>
+          <button
+            className="content-button"
+            onClick={() => pushWindow(fe_ecosphereUrl)}
+          >
+            Go fe-ecosphere
+          </button>
         </div>
         <img
           className="content-wrapper-img"
@@ -56,10 +63,16 @@ export default function AppComponents() {
                 </span>
                 <div className="app-card-subtext">{item.introduction}</div>
                 <div className="app-card-buttons justify-around w-full">
-                  <button className="content-button status-button">
+                  <button
+                    className="content-button status-button"
+                    onClick={() => pushWindow(item.download.windows)}
+                  >
                     windows
                   </button>
-                  <button className="content-button status-button open">
+                  <button
+                    className="content-button status-button open"
+                    onClick={() => pushWindow(item.download.macOS)}
+                  >
                     macOS
                   </button>
                 </div>
@@ -101,10 +114,16 @@ export default function AppComponents() {
                   Updated
                 </span> */}
                 <div className="button-wrapper">
-                  <button className="content-button status-button mr-2">
+                  <button
+                    className="content-button status-button mr-2"
+                    onClick={() => pushWindow(item.download.windows)}
+                  >
                     windows
                   </button>
-                  <button className="content-button status-button open">
+                  <button
+                    className="content-button status-button open"
+                    onClick={() => pushWindow(item.download.macOS)}
+                  >
                     macOS
                   </button>
                 </div>
