@@ -1,8 +1,20 @@
+import bandizip from '../../../public/bandizip.png'
+import chrome from '../../../public/chrome.png'
+import clash from '../../../public/clash.png'
+import git from '../../../public/git.png'
+import githubdesktop from '../../../public/githubdesktop.png'
+import nvm from '../../../public/nvm.png'
+import postman from '../../../public/postman.png'
+import snipaste from '../../../public/snipaste.png'
+import sourceTree from '../../../public/sourceTree.png'
+import v2rayN from '../../../public/v2rayN.png'
+import vscode from '../../../public/vscode.png'
+import potplayer from '../../../public/potplayer.png'
 export const Installed_config = {
   expanded: [
     {
       label: 'GitHub Desktop',
-      icon: '',
+      icon: githubdesktop.src,
       introduction: '',
       download: {
         windows:
@@ -13,7 +25,7 @@ export const Installed_config = {
     },
     {
       label: 'Sourcetree',
-      icon: '',
+      icon: sourceTree.src,
       introduction: '',
       download: {
         windows:
@@ -24,7 +36,7 @@ export const Installed_config = {
     },
     {
       label: 'nvm',
-      icon: '',
+      icon: nvm.src,
       introduction: '',
       download: {
         windows: 'https://github.com/coreybutler/nvm-windows/releases',
@@ -33,7 +45,7 @@ export const Installed_config = {
     },
     {
       label: 'PotPlayer',
-      icon: '',
+      icon: potplayer.src,
       introduction: '',
       download: {
         windows: 'https://potplayer.org/',
@@ -42,7 +54,7 @@ export const Installed_config = {
     },
     {
       label: 'Bandizip',
-      icon: '',
+      icon: bandizip.src,
       introduction: '',
       download: {
         windows: 'https://cn.bandisoft.com/bandizip/dl.php?old/',
@@ -51,7 +63,7 @@ export const Installed_config = {
     },
     {
       label: 'v2rayN',
-      icon: '',
+      icon: v2rayN.src,
       introduction: '',
       download: {
         windows: 'https://github.com/2dust/v2rayN/releases/',
@@ -60,7 +72,7 @@ export const Installed_config = {
     },
     {
       label: 'Clash for Windows',
-      icon: '',
+      icon: clash.src,
       introduction: '',
       download: {
         windows: 'https://github.com/Fndroid/clash_for_windows_pkg/',
@@ -69,7 +81,7 @@ export const Installed_config = {
     },
     {
       label: 'Clash for Windows 汉化补丁',
-      icon: '',
+      icon: clash.src,
       introduction: '',
       download: {
         windows: 'https://github.com/BoyceLig/Clash_Chinese_Patch/releases/',
@@ -78,7 +90,7 @@ export const Installed_config = {
     },
     {
       label: 'Snipaste',
-      icon: '',
+      icon: snipaste.src,
       introduction: '',
       download: {
         windows: 'https://dl.snipaste.com/win-x64-beta/',
@@ -87,7 +99,7 @@ export const Installed_config = {
     },
     {
       label: 'Postman',
-      icon: '',
+      icon: postman.src,
       introduction: '',
       download: {
         windows: 'https://dl.pstmn.io/download/latest/win64/'
@@ -97,7 +109,7 @@ export const Installed_config = {
   Mandatory: [
     {
       label: 'VS Code',
-      icon: '',
+      icon: vscode.src,
       introduction: 'Free. Built on open source. Runs everywhere.',
       download: {
         windows: 'https://code.visualstudio.com/docs/?dv=win64user',
@@ -106,7 +118,7 @@ export const Installed_config = {
     },
     {
       label: 'Git 64-bit',
-      icon: '',
+      icon: git.src,
       introduction:
         'Git is a free and open source distributed version control system.',
       download: {
@@ -117,7 +129,7 @@ export const Installed_config = {
     },
     {
       label: 'Chrome',
-      icon: '',
+      icon: chrome.src,
       introduction: "There's no place like Chrome. Chrome is faster than fast",
       download: {
         windows:
