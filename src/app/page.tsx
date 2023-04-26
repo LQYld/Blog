@@ -87,6 +87,12 @@ export default function Home() {
             </div>
           </div> */}
           <div className="side-wrapper">
+            <div className="side-title">Welcome</div>
+            {/* <div className="side-menu">
+              <a href="#">All Apps</a>
+            </div> */}
+          </div>
+          <div className="side-wrapper">
             <div className="side-title">Blog</div>
             {/* <div className="side-menu">
               <a href="#">All Apps</a>
