@@ -94,9 +94,6 @@ export default function Home() {
           </div>
           <div className="side-wrapper">
             <div className="side-title">Juejin favorites</div>
-            {/* <div className="side-menu">
-              <a href="#">All Apps</a>
-            </div> */}
           </div>
           <div className="side-wrapper">
             <div className="side-title">Blog</div>
