@@ -2,6 +2,10 @@
 
 ## Example UI
 
+<p align="center">
+<img alt="Case preview" src="./public/blog.png">
+</p>
+
 ## Introduction
 
 Under construction...
