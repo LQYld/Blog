@@ -7,6 +7,7 @@
   ],
   "rules": {
     "@typescript-eslint/no-var-requires": "off",
-    "prettier/prettier": ["error", { "endOfLine": "auto" }]
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "@typescript-eslint/ban-ts-comment": "off"
   }
 }
