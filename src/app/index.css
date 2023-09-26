@@ -189,6 +189,10 @@
   flex-shrink: 0;
 }
 
+.side-wrapper{
+  cursor: pointer;
+}
+
 .side-wrapper+.side-wrapper {
   margin-top: 20px;
 }
@@ -204,7 +208,7 @@
   white-space: nowrap;
 }
 
-.side-menu a {
+.side-menu-a {
   display: flex;
   align-items: center;
   padding: 10px;
@@ -216,7 +220,19 @@
   font-weight: 400;
 }
 
-.side-menu a:hover {
+.side-wrapper-a{
+  cursor: pointer;
+}
+
+.side-wrapper-a:hover{
+   background-color: var(--hover-menu-bg);
+}
+
+.side-menu-a:hover {
+  background-color: var(--hover-menu-bg);
+}
+
+.side-menu-active{
   background-color: var(--hover-menu-bg);
 }
 
@@ -779,3 +795,4 @@ body.light-mode .video-bg::before {
   content: "";
   backdrop-filter: saturate(3);
 }
+

@@ -5,7 +5,7 @@ import './index.css'
 export default function AppComponents() {
   const fe_ecosphereUrl = 'https://www.fe-ecosphere.com/'
   return (
-    <>
+    <div className="content-wrapper-body">
       <div className="content-wrapper-header">
         <div className="content-wrapper-context">
           <h3 className="img-content">
@@ -286,6 +286,6 @@ export default function AppComponents() {
                   </button> */}
         </ul>
       </div>
-    </>
+    </div>
   )
 }

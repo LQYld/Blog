@@ -1,14 +1,4 @@
-.fe-ecosphere{
-  width: 30px;
-  height: 30px;
-}
-
-.logo-image{
-  width: 28px;
-  height: 28px;
-}
-
-.content-wrapper-body{
+.error-body{
   animation: appear .8s .3s both;
 }
 
